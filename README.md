@@ -1,6 +1,6 @@
-# Installation instructions for customers
+# Инстуркция по внедрению SDK для клиентов
 
-## Setup
+## Установка
 
 1. Для сборки вам потребуются сборка ZGR framework и config файлы.
 
