@@ -4,12 +4,12 @@
 
 * Make sure, that you have all required frameworks and config files from ZGR.
 
-![screen](screen_1.png)
+![screen](readme/screen_1.png)
 
 * Open Xcode and install framework to your app by drag and drop, check "Copy items if needed".
     * Be sure that the framework is embedded to your app
 
-![screen](video_1.gif)
+![screen](readme/video_1.gif)
 
 * In `AppDelegate` include ZGR
 
@@ -106,19 +106,19 @@ TO BE DONE
 
 * Create notification service extension if you dont have already
 
-![screen](video_2.gif)
+![screen](readme/video_2.gif)
 
 * Link static library with notification service
 
-![screen](video_3.gif)
+![screen](readme/video_3.gif)
 
 * Replace root of your object to ZGR's provided one
 
-![screen](video_4.gif)
+![screen](readme/video_4.gif)
 
 * Include your config files
 
-![screen](video_5.gif)
+![screen](readme/video_5.gif)
 
 
 # Known issues
