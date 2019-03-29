@@ -2,16 +2,16 @@
 
 ## Setup
 
-* Make sure, that you have all required frameworks and config files from ZGR.
+1. Make sure, that you have all required frameworks and config files from ZGR.
 
 ![screen](readme/screen_1.png)
 
-* Open Xcode and install framework to your app by drag and drop, check "Copy items if needed".
+2. Open Xcode and install framework to your app by drag and drop, check "Copy items if needed".
     * Be sure that the framework is embedded to your app
 
 ![screen](readme/video_1.gif)
 
-* In `AppDelegate` include ZGR
+3. In `AppDelegate` include ZGR
 
 Objective-C:
 
@@ -25,7 +25,7 @@ Swift:
 import ZgrImSDK
 ```
 
-* Register your app for remote notifications and send token to ZGR
+4. Register your app for remote notifications and send token to ZGR
 
 Objective-C:
 
@@ -53,7 +53,7 @@ Swift:
     }
 ```
 
-* Implement UNNotificationCenter and delegate methods
+5. Implement UNNotificationCenter and delegate methods
 
 Objective-C:
 
@@ -83,7 +83,7 @@ Swift:
 TO BE DONE
 ```
 
-* Forward notification pressing to ZGR
+6. Forward notification pressing to ZGR
 
 Objective-C:
 
@@ -104,19 +104,19 @@ TO BE DONE
 ```
 
 
-* Create notification service extension if you dont have already
+7. Create notification service extension if you dont have already
 
 ![screen](readme/video_2.gif)
 
-* Link static library with notification service
+8. Link static library with notification service
 
 ![screen](readme/video_3.gif)
 
-* Replace root of your object to ZGR's provided one
+9. Replace root of your object to ZGR's provided one
 
 ![screen](readme/video_4.gif)
 
-* Include your config files
+10. Include your config files
 
 ![screen](readme/video_5.gif)
 
